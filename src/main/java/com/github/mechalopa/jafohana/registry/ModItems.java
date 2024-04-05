@@ -54,6 +54,7 @@ public class ModItems
 	public static final RegistryObject<Item> BIRD_OF_PARADISE = REGISTRY.register("bird_of_paradise", () -> new DoubleHighBlockItem(ModBlocks.BIRD_OF_PARADISE.get(), new Item.Properties()));
 	public static final RegistryObject<Item> BRAZILIAN_PLUME = REGISTRY.register("brazilian_plume", () -> new DoubleHighBlockItem(ModBlocks.BRAZILIAN_PLUME.get(), new Item.Properties()));
 	public static final RegistryObject<Item> WORSLEYA = REGISTRY.register("worsleya", () -> new DoubleHighBlockItem(ModBlocks.WORSLEYA.get(), new Item.Properties()));
+	public static final RegistryObject<Item> OAKLEAF_HYDRANGEA = REGISTRY.register("oakleaf_hydrangea", () -> new DoubleHighBlockItem(ModBlocks.OAKLEAF_HYDRANGEA.get(), new Item.Properties()));
 	public static final RegistryObject<Item> FASCIATED_DANDELION = REGISTRY.register("fasciated_dandelion", () -> new DoubleHighBlockItem(ModBlocks.FASCIATED_DANDELION.get(), new Item.Properties()));
 	public static final RegistryObject<Item> FASCIATED_OXEYE_DAISY = REGISTRY.register("fasciated_oxeye_daisy", () -> new DoubleHighBlockItem(ModBlocks.FASCIATED_OXEYE_DAISY.get(), new Item.Properties()));
 	public static final RegistryObject<Item> JADE_VINE = REGISTRY.register("jade_vine", () -> new BlockItem(ModBlocks.JADE_VINE.get(), new Item.Properties()));

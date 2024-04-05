@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/oakleaf_hydrangea_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/oakleaf_hydrangea_top"
+    }
+  }
+}
