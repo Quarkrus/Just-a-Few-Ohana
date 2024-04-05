@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "jafohana:purple_pansy"
+  },
+  "render": {
+    "type": "generic",
+    "block": "jafohana:purple_pansy"
+  },
+  "results": [
+    {
+      "item": "jafohana:purple_pansy"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}

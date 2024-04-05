@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "jafohana:magenta_spotted_bellflower"
+  },
+  "render": {
+    "type": "generic",
+    "block": "jafohana:magenta_spotted_bellflower"
+  },
+  "results": [
+    {
+      "item": "jafohana:magenta_spotted_bellflower"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}

@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ],
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "jafohana:snowdrop"
+  },
+  "render": {
+    "type": "generic",
+    "block": "jafohana:snowdrop"
+  },
+  "results": [
+    {
+      "item": "jafohana:snowdrop"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}
