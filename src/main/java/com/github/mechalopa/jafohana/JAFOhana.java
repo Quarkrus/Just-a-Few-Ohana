@@ -7,7 +7,6 @@ import com.github.mechalopa.jafohana.registry.ModBiomeModifiers;
 import com.github.mechalopa.jafohana.registry.ModBlocks;
 import com.github.mechalopa.jafohana.registry.ModCreativeModeTabs;
 import com.github.mechalopa.jafohana.registry.ModItems;
-import com.github.mechalopa.jafohana.registry.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 
 import net.neoforged.bus.api.IEventBus;
@@ -31,7 +30,6 @@ public class JAFOhana
 		ModBiomeFeatures.register(modEventBus);
 		ModCreativeModeTabs.register(modEventBus);
 		ModItems.register(modEventBus);
-		ModLootModifiers.register(modEventBus);
 		ModBiomeModifiers.register(modEventBus);
 	}
 }
