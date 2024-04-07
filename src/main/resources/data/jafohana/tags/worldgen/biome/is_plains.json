@@ -10,6 +10,10 @@
       "required": false
     },
     {
+      "id": "#forge:is_grassland",
+      "required": false
+    },
+    {
       "id": "terralith:blooming_plateau",
       "required": false
     },
@@ -19,10 +23,6 @@
     },
     {
       "id": "terralith:valley_clearing",
-      "required": false
-    },
-    {
-      "id": "meadow:meadow_clearing",
       "required": false
     },
     {

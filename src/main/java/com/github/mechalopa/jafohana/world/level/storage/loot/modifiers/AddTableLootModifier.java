@@ -17,7 +17,7 @@ import net.neoforged.neoforge.common.loot.LootModifier;
 
 public class AddTableLootModifier extends LootModifier
 {
-    public static final Codec<AddTableLootModifier> CODEC = RecordCodecBuilder.create(inst -> inst.group(IGlobalLootModifier.LOOT_CONDITIONS_CODEC.fieldOf("conditions").forGetter(glm -> glm.conditions), ResourceLocation.CODEC.fieldOf("table").forGetter(AddTableLootModifier::table)).apply(inst, AddTableLootModifier::new));
+	public static final Codec<AddTableLootModifier> CODEC = RecordCodecBuilder.create(inst -> inst.group(IGlobalLootModifier.LOOT_CONDITIONS_CODEC.fieldOf("conditions").forGetter(glm -> glm.conditions), ResourceLocation.CODEC.fieldOf("table").forGetter(AddTableLootModifier::table)).apply(inst, AddTableLootModifier::new));
 	private final ResourceLocation lootTable;
 
 	public AddTableLootModifier(LootItemCondition[] conditions, ResourceLocation lootTable)
