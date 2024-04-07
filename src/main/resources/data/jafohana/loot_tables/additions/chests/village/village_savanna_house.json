@@ -65,8 +65,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:blue_daisy",
-          "weight": 2
+          "name": "jafohana:bells_of_ireland"
         },
         {
           "type": "minecraft:item",
@@ -78,7 +77,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 7
         }
       ],
       "rolls": {

@@ -1,0 +1,23 @@
+{
+  "forge:condition": {
+    "type": "forge:mod_loaded",
+    "modid": "immersiveengineering"
+  },
+  "type": "immersiveengineering:cloche",
+  "input": {
+    "item": "jafohana:white_pansy"
+  },
+  "render": {
+    "type": "generic",
+    "block": "jafohana:white_pansy"
+  },
+  "results": [
+    {
+      "item": "jafohana:white_pansy"
+    }
+  ],
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 480
+}
