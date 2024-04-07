@@ -10,15 +10,17 @@
     "item": "jafohana:fasciated_oxeye_daisy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:fasciated_oxeye_daisy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:fasciated_oxeye_daisy"
   },
   "results": [
     {
-      "item": "minecraft:oxeye_daisy"
+      "Count": 1,
+      "id": "minecraft:oxeye_daisy"
     },
     {
-      "item": "jafohana:fasciated_oxeye_daisy"
+      "Count": 1,
+      "id": "jafohana:fasciated_oxeye_daisy"
     }
   ],
   "soil": {

@@ -10,8 +10,8 @@
     "item": "jafohana:wheel_lily"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:wheel_lily"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:wheel_lily"
   },
   "results": [
     {

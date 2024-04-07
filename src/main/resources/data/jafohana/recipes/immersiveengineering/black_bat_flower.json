@@ -10,8 +10,8 @@
     "item": "jafohana:black_bat_flower"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:black_bat_flower"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:black_bat_flower"
   },
   "results": [
     {

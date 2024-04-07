@@ -10,8 +10,8 @@
     "item": "jafohana:spathiphyllum"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:spathiphyllum"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:spathiphyllum"
   },
   "results": [
     {

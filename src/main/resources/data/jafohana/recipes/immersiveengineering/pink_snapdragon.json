@@ -10,8 +10,8 @@
     "item": "jafohana:pink_snapdragon"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:pink_snapdragon"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:pink_snapdragon"
   },
   "results": [
     {

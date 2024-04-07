@@ -10,8 +10,8 @@
     "item": "jafohana:evening_primrose"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:evening_primrose"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:evening_primrose"
   },
   "results": [
     {

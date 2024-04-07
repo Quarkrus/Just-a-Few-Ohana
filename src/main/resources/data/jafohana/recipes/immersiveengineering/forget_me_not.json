@@ -10,8 +10,8 @@
     "item": "jafohana:forget_me_not"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:forget_me_not"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:forget_me_not"
   },
   "results": [
     {

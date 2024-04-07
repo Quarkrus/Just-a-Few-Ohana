@@ -10,8 +10,8 @@
     "item": "jafohana:white_african_daisy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:white_african_daisy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:white_african_daisy"
   },
   "results": [
     {

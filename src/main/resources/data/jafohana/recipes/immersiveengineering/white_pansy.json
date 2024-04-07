@@ -10,8 +10,8 @@
     "item": "jafohana:white_pansy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:white_pansy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:white_pansy"
   },
   "results": [
     {

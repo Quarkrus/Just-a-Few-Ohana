@@ -10,8 +10,8 @@
     "item": "jafohana:jade_vine"
   },
   "render": {
-    "type": "stacking",
-    "block": "jafohana:jade_vine"
+    "type": "immersiveengineering:stacking",
+    "value": "jafohana:jade_vine"
   },
   "results": [
     {

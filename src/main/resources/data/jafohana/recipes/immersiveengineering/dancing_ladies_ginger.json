@@ -10,8 +10,8 @@
     "item": "jafohana:dancing_ladies_ginger"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:dancing_ladies_ginger"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:dancing_ladies_ginger"
   },
   "results": [
     {

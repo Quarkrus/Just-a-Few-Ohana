@@ -10,8 +10,8 @@
     "item": "jafohana:orange_spider_lily"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:orange_spider_lily"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:orange_spider_lily"
   },
   "results": [
     {

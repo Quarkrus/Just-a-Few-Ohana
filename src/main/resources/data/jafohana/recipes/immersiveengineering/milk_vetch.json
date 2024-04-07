@@ -10,8 +10,8 @@
     "item": "jafohana:milk_vetch"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:milk_vetch"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:milk_vetch"
   },
   "results": [
     {

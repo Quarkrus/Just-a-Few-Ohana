@@ -10,8 +10,8 @@
     "item": "jafohana:creepansy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:creepansy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:creepansy"
   },
   "results": [
     {

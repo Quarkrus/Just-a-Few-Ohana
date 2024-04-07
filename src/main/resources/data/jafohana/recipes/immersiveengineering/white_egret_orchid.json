@@ -10,8 +10,8 @@
     "item": "jafohana:white_egret_orchid"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:white_egret_orchid"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:white_egret_orchid"
   },
   "results": [
     {

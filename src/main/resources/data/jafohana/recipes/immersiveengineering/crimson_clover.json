@@ -10,8 +10,8 @@
     "item": "jafohana:crimson_clover"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:crimson_clover"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:crimson_clover"
   },
   "results": [
     {

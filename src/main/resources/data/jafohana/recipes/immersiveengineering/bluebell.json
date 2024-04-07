@@ -10,8 +10,8 @@
     "item": "jafohana:bluebell"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:bluebell"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:bluebell"
   },
   "results": [
     {

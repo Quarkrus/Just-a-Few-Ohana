@@ -10,8 +10,8 @@
     "item": "jafohana:orange_marigold"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:orange_marigold"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:orange_marigold"
   },
   "results": [
     {

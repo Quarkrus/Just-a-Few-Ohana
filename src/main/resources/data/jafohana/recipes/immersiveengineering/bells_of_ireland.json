@@ -10,8 +10,8 @@
     "item": "jafohana:bells_of_ireland"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:bells_of_ireland"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:bells_of_ireland"
   },
   "results": [
     {

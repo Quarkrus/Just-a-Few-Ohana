@@ -10,15 +10,17 @@
     "item": "jafohana:fasciated_dandelion"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:fasciated_dandelion"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:fasciated_dandelion"
   },
   "results": [
     {
-      "item": "minecraft:dandelion"
+      "Count": 1,
+      "id": "minecraft:dandelion"
     },
     {
-      "item": "jafohana:fasciated_dandelion"
+      "Count": 1,
+      "id": "jafohana:fasciated_dandelion"
     }
   ],
   "soil": {

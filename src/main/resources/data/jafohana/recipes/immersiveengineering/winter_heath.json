@@ -10,8 +10,8 @@
     "item": "jafohana:winter_heath"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:winter_heath"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:winter_heath"
   },
   "results": [
     {

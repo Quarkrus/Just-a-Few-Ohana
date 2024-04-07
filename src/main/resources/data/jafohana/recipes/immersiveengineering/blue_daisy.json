@@ -10,8 +10,8 @@
     "item": "jafohana:blue_daisy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:blue_daisy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:blue_daisy"
   },
   "results": [
     {

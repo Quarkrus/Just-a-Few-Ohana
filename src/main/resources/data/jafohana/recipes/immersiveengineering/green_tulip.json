@@ -10,8 +10,8 @@
     "item": "jafohana:green_tulip"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:green_tulip"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:green_tulip"
   },
   "results": [
     {

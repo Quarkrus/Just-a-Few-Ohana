@@ -10,8 +10,8 @@
     "item": "jafohana:pink_african_daisy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:pink_african_daisy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:pink_african_daisy"
   },
   "results": [
     {

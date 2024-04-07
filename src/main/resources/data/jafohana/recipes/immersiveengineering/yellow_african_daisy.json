@@ -10,8 +10,8 @@
     "item": "jafohana:yellow_african_daisy"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:yellow_african_daisy"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:yellow_african_daisy"
   },
   "results": [
     {

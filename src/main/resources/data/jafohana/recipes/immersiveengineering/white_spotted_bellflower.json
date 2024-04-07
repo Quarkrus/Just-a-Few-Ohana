@@ -10,8 +10,8 @@
     "item": "jafohana:white_spotted_bellflower"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:white_spotted_bellflower"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:white_spotted_bellflower"
   },
   "results": [
     {

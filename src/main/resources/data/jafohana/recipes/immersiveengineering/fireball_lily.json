@@ -10,8 +10,8 @@
     "item": "jafohana:fireball_lily"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:fireball_lily"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:fireball_lily"
   },
   "results": [
     {

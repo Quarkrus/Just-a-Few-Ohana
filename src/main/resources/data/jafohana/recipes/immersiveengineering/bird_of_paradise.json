@@ -10,8 +10,8 @@
     "item": "jafohana:bird_of_paradise"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:bird_of_paradise"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:bird_of_paradise"
   },
   "results": [
     {

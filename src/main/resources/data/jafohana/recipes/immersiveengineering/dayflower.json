@@ -10,8 +10,8 @@
     "item": "jafohana:dayflower"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:dayflower"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:dayflower"
   },
   "results": [
     {

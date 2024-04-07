@@ -10,8 +10,8 @@
     "item": "jafohana:worsleya"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:worsleya"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:worsleya"
   },
   "results": [
     {

@@ -10,8 +10,8 @@
     "item": "jafohana:magenta_spotted_bellflower"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:magenta_spotted_bellflower"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:magenta_spotted_bellflower"
   },
   "results": [
     {

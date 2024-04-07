@@ -10,8 +10,8 @@
     "item": "jafohana:snowdrop"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:snowdrop"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:snowdrop"
   },
   "results": [
     {

@@ -10,8 +10,8 @@
     "item": "jafohana:oakleaf_hydrangea"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:oakleaf_hydrangea"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:oakleaf_hydrangea"
   },
   "results": [
     {

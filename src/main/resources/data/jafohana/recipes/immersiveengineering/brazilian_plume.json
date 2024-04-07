@@ -10,8 +10,8 @@
     "item": "jafohana:brazilian_plume"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:brazilian_plume"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:brazilian_plume"
   },
   "results": [
     {

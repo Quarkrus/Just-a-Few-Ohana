@@ -10,8 +10,8 @@
     "item": "jafohana:gloriosa"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:gloriosa"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:gloriosa"
   },
   "results": [
     {

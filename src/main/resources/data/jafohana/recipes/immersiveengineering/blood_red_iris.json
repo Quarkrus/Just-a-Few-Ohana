@@ -10,8 +10,8 @@
     "item": "jafohana:blood_red_iris"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:blood_red_iris"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:blood_red_iris"
   },
   "results": [
     {

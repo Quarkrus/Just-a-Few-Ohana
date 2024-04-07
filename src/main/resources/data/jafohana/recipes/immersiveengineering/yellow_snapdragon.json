@@ -10,8 +10,8 @@
     "item": "jafohana:yellow_snapdragon"
   },
   "render": {
-    "type": "generic",
-    "block": "jafohana:yellow_snapdragon"
+    "type": "immersiveengineering:generic",
+    "value": "jafohana:yellow_snapdragon"
   },
   "results": [
     {
