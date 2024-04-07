@@ -12,7 +12,7 @@
   },
   "group": "botania:flower_cycle",
   "input": {
-    "item": "jafohana:yellow_marigold"
+    "item": "jafohana:oakleaf_hydrangea"
   },
   "mana": 400,
   "output": {
