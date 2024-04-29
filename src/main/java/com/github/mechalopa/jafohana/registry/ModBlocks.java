@@ -63,6 +63,9 @@ public class ModBlocks
 	public static final RegistryObject<Block> BRAZILIAN_PLUME = REGISTRY.register("brazilian_plume", () -> new ModTallFlowerBlock());
 	public static final RegistryObject<Block> WORSLEYA = REGISTRY.register("worsleya", () -> new ModTallFlowerBlock());
 	public static final RegistryObject<Block> OAKLEAF_HYDRANGEA = REGISTRY.register("oakleaf_hydrangea", () -> new ModTallFlowerBlock());
+	public static final RegistryObject<Block> FIREWEED = REGISTRY.register("fireweed", () -> new ModTallFlowerBlock());
+	public static final RegistryObject<Block> ALPINE_RAGWORT = REGISTRY.register("alpine_ragwort", () -> new ModTallFlowerBlock());
+	public static final RegistryObject<Block> TATARIAN_ASTER = REGISTRY.register("tatarian_aster", () -> new ModTallFlowerBlock());
 	public static final RegistryObject<Block> FASCIATED_DANDELION = REGISTRY.register("fasciated_dandelion", () -> new FasciatedDandelionBlock());
 	public static final RegistryObject<Block> FASCIATED_OXEYE_DAISY = REGISTRY.register("fasciated_oxeye_daisy", () -> new FasciatedOxeyeDaisyBlock());
 	public static final RegistryObject<Block> JADE_VINE = REGISTRY.register("jade_vine", () -> new JadeVineBlock());

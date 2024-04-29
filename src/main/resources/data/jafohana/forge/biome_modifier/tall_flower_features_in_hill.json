@@ -1,0 +1,50 @@
+{
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": [
+          "minecraft:cherry_grove",
+          "minecraft:stony_peaks"
+        ],
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_savanna",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_forest",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_jungle",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hot",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_swamp",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_mountain"
+      }
+    ]
+  ],
+  "features": "jafohana:tall_flower_hill",
+  "step": "vegetal_decoration"
+}
