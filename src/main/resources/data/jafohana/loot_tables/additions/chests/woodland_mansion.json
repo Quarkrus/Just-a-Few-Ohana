@@ -48,7 +48,7 @@
             }
           ],
           "name": "jafohana:black_tulip",
-          "weight": 4
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -64,14 +64,18 @@
             }
           ],
           "name": "jafohana:green_tulip",
-          "weight": 4
+          "weight": 5
         },
         {
           "type": "minecraft:empty",
-          "weight": 40
+          "weight": 20
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
     }
   ],
   "random_sequence": "jafohana:additions/chests/woodland_mansion"

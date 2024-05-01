@@ -12,10 +12,10 @@
   },
   "group": "botania:flower_cycle",
   "input": {
-    "item": "jafohana:pink_snapdragon"
+    "item": "jafohana:tatarian_aster"
   },
   "mana": 400,
   "output": {
-    "item": "jafohana:orange_marigold"
+    "item": "jafohana:alpine_ragwort"
   }
 }

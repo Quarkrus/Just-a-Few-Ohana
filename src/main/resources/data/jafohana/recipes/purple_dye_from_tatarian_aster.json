@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "purple_dye",
+  "ingredients": [
+    {
+      "item": "jafohana:tatarian_aster"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 2
+  }
+}

@@ -41,6 +41,21 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "jafohana:oakleaf_hydrangea"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 5.0,
                 "min": 1.0
               },
@@ -66,7 +81,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 12
+          "weight": 11
         }
       ],
       "rolls": {

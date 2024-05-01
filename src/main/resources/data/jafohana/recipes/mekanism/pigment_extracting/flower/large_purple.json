@@ -7,9 +7,14 @@
   ],
   "type": "mekanism:pigment_extracting",
   "input": {
-    "ingredient": {
-      "item": "jafohana:worsleya"
-    }
+    "ingredient": [
+      {
+        "item": "jafohana:worsleya"
+      },
+      {
+        "item": "jafohana:tatarian_aster"
+      }
+    ]
   },
   "output": {
     "amount": 1536,

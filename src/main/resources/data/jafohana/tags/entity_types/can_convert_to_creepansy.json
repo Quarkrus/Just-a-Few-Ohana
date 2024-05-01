@@ -163,6 +163,10 @@
       "required": false
     },
     {
+      "id": "arsmagicalegacy:mana_creeper",
+      "required": false
+    },
+    {
       "id": "grimoireofgaia:creep",
       "required": false
     },

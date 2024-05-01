@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/tatarian_aster_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/tatarian_aster_top"
+    }
+  }
+}

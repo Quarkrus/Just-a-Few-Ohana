@@ -56,6 +56,9 @@ public class ModItems
 	public static final Supplier<Item> BRAZILIAN_PLUME = REGISTRY.register("brazilian_plume", () -> new DoubleHighBlockItem(ModBlocks.BRAZILIAN_PLUME.get(), new Item.Properties()));
 	public static final Supplier<Item> WORSLEYA = REGISTRY.register("worsleya", () -> new DoubleHighBlockItem(ModBlocks.WORSLEYA.get(), new Item.Properties()));
 	public static final Supplier<Item> OAKLEAF_HYDRANGEA = REGISTRY.register("oakleaf_hydrangea", () -> new DoubleHighBlockItem(ModBlocks.OAKLEAF_HYDRANGEA.get(), new Item.Properties()));
+	public static final Supplier<Item> FIREWEED = REGISTRY.register("fireweed", () -> new DoubleHighBlockItem(ModBlocks.FIREWEED.get(), new Item.Properties()));
+	public static final Supplier<Item> ALPINE_RAGWORT = REGISTRY.register("alpine_ragwort", () -> new DoubleHighBlockItem(ModBlocks.ALPINE_RAGWORT.get(), new Item.Properties()));
+	public static final Supplier<Item> TATARIAN_ASTER = REGISTRY.register("tatarian_aster", () -> new DoubleHighBlockItem(ModBlocks.TATARIAN_ASTER.get(), new Item.Properties()));
 	public static final Supplier<Item> FASCIATED_DANDELION = REGISTRY.register("fasciated_dandelion", () -> new DoubleHighBlockItem(ModBlocks.FASCIATED_DANDELION.get(), new Item.Properties()));
 	public static final Supplier<Item> FASCIATED_OXEYE_DAISY = REGISTRY.register("fasciated_oxeye_daisy", () -> new DoubleHighBlockItem(ModBlocks.FASCIATED_OXEYE_DAISY.get(), new Item.Properties()));
 	public static final Supplier<Item> JADE_VINE = REGISTRY.register("jade_vine", () -> new BlockItem(ModBlocks.JADE_VINE.get(), new Item.Properties()));
