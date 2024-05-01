@@ -1,0 +1,74 @@
+{
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_birch_forest",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hot",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_mountain",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_forest"
+      },
+      {
+        "name": "#jafohana:is_sparse"
+      }
+    ],
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_birch_forest",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hot",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dense",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_mountain",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_coniferous"
+      },
+      {
+        "name": "#jafohana:biomesoplenty/tundra",
+        "negate": true
+      }
+    ]
+  ],
+  "features": "jafohana:fireweed",
+  "step": "vegetal_decoration"
+}

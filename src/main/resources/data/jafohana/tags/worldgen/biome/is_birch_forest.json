@@ -30,6 +30,10 @@
     {
       "id": "wythers:warm_birch_forest",
       "required": false
+    },
+    {
+      "id": "excessive_building:golden_birch_forest",
+      "required": false
     }
   ]
 }

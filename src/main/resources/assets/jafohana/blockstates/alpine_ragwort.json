@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/alpine_ragwort_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/alpine_ragwort_top"
+    }
+  }
+}
