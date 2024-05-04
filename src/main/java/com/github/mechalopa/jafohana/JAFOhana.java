@@ -10,7 +10,7 @@ import com.github.mechalopa.jafohana.registry.ModItems;
 import com.mojang.logging.LogUtils;
 
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModLoadingContext;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 
@@ -21,10 +21,10 @@ public class JAFOhana
 
 	public static final Logger LOGGER = LogUtils.getLogger();
 
-	public JAFOhana(IEventBus modEventBus)
+	public JAFOhana(IEventBus modEventBus, ModContainer modContainer)
 	{
-		ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ModConfigs.SERVER_CONFIG);
 		modEventBus.addListener(ModConfigs::loadConfig);
+		modContainer.registerConfig(ModConfig.Type.COMMON, ModConfigs.SERVER_CONFIG);
 
 		ModBlocks.register(modEventBus);
 		ModBiomeFeatures.register(modEventBus);

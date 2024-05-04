@@ -1,7 +1,5 @@
 package com.github.mechalopa.jafohana.world.level.block;
 
-import java.util.function.Supplier;
-
 import javax.annotation.Nullable;
 
 import com.github.mechalopa.jafohana.util.ModTags;
@@ -9,6 +7,7 @@ import com.github.mechalopa.jafohana.world.level.block.state.properties.ModBlock
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.Holder;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -24,7 +23,7 @@ public class CrimsonCloverBlock extends ModFlowerBlock
 {
 	public static final BooleanProperty ON_NYLIUM = ModBlockStateProperties.ON_NYLIUM;
 
-	public CrimsonCloverBlock(Supplier<MobEffect> effect, int effectDuration)
+	public CrimsonCloverBlock(Holder<MobEffect> effect, int effectDuration)
 	{
 		super(effect, effectDuration);
 		this.registerDefaultState(this.stateDefinition.any().setValue(ON_NYLIUM, false));

@@ -1,10 +1,10 @@
 package com.github.mechalopa.jafohana;
 
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
-@Mod.EventBusSubscriber(modid = JAFOhana.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = JAFOhana.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class ModEventBusSubscriber
 {
 	@SubscribeEvent

@@ -14,7 +14,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_mountain",
+        "name": "#jafohana:is_hill_or_mountain",
         "negate": true
       },
       {

@@ -39,7 +39,6 @@ public class JadeVineBlock extends Block implements BonemealableBlock
 		this.registerDefaultState(this.stateDefinition.any().setValue(PART, JadeVinePart.SINGLE));
 	}
 
-	@SuppressWarnings("deprecation")
 	@Override
 	public BlockState updateShape(BlockState state, Direction direction, BlockState state1, LevelAccessor levelAccerssor, BlockPos pos, BlockPos pos1)
 	{

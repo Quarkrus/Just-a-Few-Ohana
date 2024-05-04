@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     {
-      "id": "#forge:is_wasteland",
+      "id": "#c:is_wasteland",
       "required": false
     }
   ]

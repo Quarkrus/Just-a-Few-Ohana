@@ -2,19 +2,19 @@
   "replace": false,
   "values": [
     {
-      "id": "#c:is_cold",
+      "id": "#c:is_dense_vegetation",
       "required": false
     },
     {
-      "id": "biox:glacial_caves",
+      "id": "biox:autumnal_dark_forest",
       "required": false
     },
     {
-      "id": "spookybats:christmas_forest",
+      "id": "biox:autumnal_dark_plains",
       "required": false
     },
     {
-      "id": "excessive_building:snowy_maple_forest",
+      "id": "biox:dark_plains",
       "required": false
     }
   ]

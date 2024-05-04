@@ -21,6 +21,10 @@
         "name": "#jafohana:is_overworld"
       },
       {
+        "name": "minecraft:grove",
+        "negate": true
+      },
+      {
         "name": "#jafohana:is_snowy"
       },
       {

@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.github.mechalopa.jafohana.registry.ModBiomeModifiers;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 
 import net.minecraft.core.Holder;
@@ -17,7 +18,7 @@ import net.neoforged.neoforge.common.world.ModifiableBiomeInfo;
 
 public record ModAddFeaturesBiomeModifier(List<List<ModAddFeaturesBiomeModifier.BiomeProp>> biomePropLists, HolderSet<PlacedFeature> features, Decoration step) implements BiomeModifier
 {
-	public static final Codec<ModAddFeaturesBiomeModifier> CODEC = RecordCodecBuilder.create(builder -> builder.group(
+	public static final MapCodec<ModAddFeaturesBiomeModifier> CODEC = RecordCodecBuilder.mapCodec(builder -> builder.group(
 			BiomeProp.CODEC.listOf().listOf().fieldOf("biomes").forGetter(ModAddFeaturesBiomeModifier::biomePropLists),
 			PlacedFeature.LIST_CODEC.fieldOf("features").forGetter(ModAddFeaturesBiomeModifier::features),
 			Decoration.CODEC.fieldOf("step").forGetter(ModAddFeaturesBiomeModifier::step))
@@ -61,7 +62,7 @@ public record ModAddFeaturesBiomeModifier(List<List<ModAddFeaturesBiomeModifier.
 	}
 
 	@Override
-	public Codec<? extends BiomeModifier> codec()
+	public MapCodec<? extends BiomeModifier> codec()
 	{
 		return ModBiomeModifiers.ADD_FEATURES.get();
 	}

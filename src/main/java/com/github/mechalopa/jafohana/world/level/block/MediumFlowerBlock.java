@@ -1,8 +1,7 @@
 package com.github.mechalopa.jafohana.world.level.block;
 
-import java.util.function.Supplier;
-
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Holder;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +14,7 @@ public class MediumFlowerBlock extends ModFlowerBlock
 {
 	protected static final VoxelShape SHAPE = Block.box(5.0D, 0.0D, 5.0D, 11.0D, 14.0D, 11.0D);
 
-	public MediumFlowerBlock(Supplier<MobEffect> effect, int effectDuration)
+	public MediumFlowerBlock(Holder<MobEffect> effect, int effectDuration)
 	{
 		super(effect, effectDuration);
 	}

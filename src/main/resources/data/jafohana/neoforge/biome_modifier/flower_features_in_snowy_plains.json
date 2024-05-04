@@ -14,14 +14,14 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_mountain",
+        "name": "#jafohana:is_dense_vegetation",
         "negate": true
       },
       {
         "name": "#jafohana:is_snowy"
       },
       {
-        "name": "#jafohana:is_plains"
+        "name": "#jafohana:is_snowy_plains"
       }
     ]
   ],

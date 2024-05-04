@@ -6,7 +6,7 @@
         "name": "#jafohana:is_overworld"
       },
       {
-        "name": "#jafohana:is_sparse"
+        "name": "#jafohana:is_sparse_vegetation"
       },
       {
         "name": "#jafohana:is_dry"
@@ -20,7 +20,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_mountain",
+        "name": "#jafohana:is_hill_or_mountain",
         "negate": true
       }
     ]

@@ -18,7 +18,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_mountain",
+        "name": "#jafohana:is_hill_or_mountain",
         "negate": true
       },
       {
@@ -29,7 +29,7 @@
         "name": "#jafohana:is_forest"
       },
       {
-        "name": "#jafohana:is_sparse"
+        "name": "#jafohana:is_sparse_vegetation"
       }
     ],
     [
@@ -49,11 +49,11 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dense",
+        "name": "#jafohana:is_dense_vegetation",
         "negate": true
       },
       {
-        "name": "#jafohana:is_mountain",
+        "name": "#jafohana:is_hill_or_mountain",
         "negate": true
       },
       {
