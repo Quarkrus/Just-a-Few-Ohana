@@ -12,7 +12,7 @@
         "name": "#jafohana:is_dry"
       },
       {
-        "name": "minecraft:windswept_savanna",
+        "name": "#jafohana:is_savanna",
         "negate": true
       },
       {
