@@ -13,13 +13,13 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.npc.VillagerTrades.ItemListing;
+import net.minecraft.world.item.BoneMealItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
-import net.neoforged.bus.api.Event.Result;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.BasicItemListing;
@@ -34,19 +34,29 @@ public class ModEvents
 	@SubscribeEvent
 	public static void onBonemeal(BonemealEvent event)
 	{
-		if (!event.isCanceled() && !event.getLevel().isClientSide() && event.getLevel() instanceof ServerLevel && event.getBlock() != null)
+		if (!event.isCanceled() && !event.getLevel().isClientSide() && event.getLevel() instanceof ServerLevel && event.getState() != null)
 		{
 			ServerLevel serverLevel = (ServerLevel)event.getLevel();
 			BlockPos pos = event.getPos();
 			RandomSource r = serverLevel.getRandom();
 
-			if (event.getBlock().is(ModTags.BlockTags.CONVERTABLE_TO_FASCIATED_DANDELION) && fasciate(serverLevel, pos, ModBlocks.FASCIATED_DANDELION.get().defaultBlockState(), r, ModConfigs.cachedServer.DANDELION_FASCIATION_CHANCE))
+			if (event.getState().is(ModTags.BlockTags.CONVERTABLE_TO_FASCIATED_DANDELION) && fasciate(serverLevel, pos, ModBlocks.FASCIATED_DANDELION.get().defaultBlockState(), r, ModConfigs.cachedServer.DANDELION_FASCIATION_CHANCE))
 			{
-				event.setResult(Result.ALLOW);
+				event.setSuccessful(true);
+
+				if (event.getStack() != null && !event.getStack().isEmpty() && event.getStack().getItem() != null && event.getStack().getItem() instanceof BoneMealItem)
+				{
+					event.getStack().shrink(1);
+				}
 			}
-			else if (event.getBlock().is(ModTags.BlockTags.CONVERTABLE_TO_FASCIATED_OXEYE_DAISY) && fasciate(serverLevel, pos, ModBlocks.FASCIATED_OXEYE_DAISY.get().defaultBlockState(), r, ModConfigs.cachedServer.OXEYE_DAISY_FASCIATION_CHANCE))
+			else if (event.getState().is(ModTags.BlockTags.CONVERTABLE_TO_FASCIATED_OXEYE_DAISY) && fasciate(serverLevel, pos, ModBlocks.FASCIATED_OXEYE_DAISY.get().defaultBlockState(), r, ModConfigs.cachedServer.OXEYE_DAISY_FASCIATION_CHANCE))
 			{
-				event.setResult(Result.ALLOW);
+				event.setSuccessful(true);
+
+				if (event.getStack() != null && !event.getStack().isEmpty() && event.getStack().getItem() != null && event.getStack().getItem() instanceof BoneMealItem)
+				{
+					event.getStack().shrink(1);
+				}
 			}
 		}
 	}
@@ -82,7 +92,7 @@ public class ModEvents
 	@SubscribeEvent
 	public static void onBlockExplode(ExplosionEvent.Detonate event)
 	{
-		if (!event.getLevel().isClientSide() && event.getExplosion().getDirectSourceEntity() != null && event.getExplosion().getDirectSourceEntity().getType().is(ModTags.EntityTypeTags.CAN_CONVERT_TO_CREEPANSY) && !event.getAffectedBlocks().isEmpty() && EventHooks.getMobGriefingEvent(event.getLevel(), event.getExplosion().getDirectSourceEntity()))
+		if (!event.getLevel().isClientSide() && event.getExplosion().getDirectSourceEntity() != null && event.getExplosion().getDirectSourceEntity().getType().is(ModTags.EntityTypeTags.CAN_CONVERT_TO_CREEPANSY) && !event.getAffectedBlocks().isEmpty() && EventHooks.canEntityGrief(event.getLevel(), event.getExplosion().getDirectSourceEntity()))
 		{
 			Level level = event.getLevel();
 
