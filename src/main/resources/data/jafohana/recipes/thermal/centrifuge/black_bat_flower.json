@@ -11,6 +11,7 @@
   ],
   "type": "thermal:centrifuge",
   "energy": 3200,
+  "experience": 0.2,
   "ingredient": {
     "item": "jafohana:black_bat_flower"
   },

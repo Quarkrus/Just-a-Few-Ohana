@@ -11,6 +11,7 @@
   ],
   "type": "thermal:centrifuge",
   "energy": 1600,
+  "experience": 0.1,
   "ingredient": {
     "item": "jafohana:black_tulip"
   },
