@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#jafohana:has_fasciated_dandelion",
+  "features": "jafohana:fasciated_dandelion",
+  "step": "vegetal_decoration"
+}
