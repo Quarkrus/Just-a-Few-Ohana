@@ -75,6 +75,10 @@
       "required": false
     },
     {
+      "id": "mysticsbiomes:lagoon",
+      "required": false
+    },
+    {
       "id": "mysticsbiomes:lavender_meadow",
       "required": false
     },
@@ -104,18 +108,6 @@
     },
     {
       "id": "galosphere:pink_salt_caves",
-      "required": false
-    },
-    {
-      "id": "excessive_building:golden_birch_forest",
-      "required": false
-    },
-    {
-      "id": "excessive_building:maple_forest",
-      "required": false
-    },
-    {
-      "id": "excessive_building:snowy_maple_forest",
       "required": false
     }
   ]
