@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ],
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "jafohana:tatarian_aster"
+  },
+  "result": [
+    {
+      "result": {
+        "Count": 4,
+        "id": "minecraft:purple_dye"
+      }
+    },
+    {
+      "chance": 0.0,
+      "result": {
+        "Count": 0,
+        "id": "minecraft:air"
+      }
+    }
+  ]
+}
