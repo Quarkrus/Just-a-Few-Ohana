@@ -22,15 +22,15 @@
   "outputs": [
     {
       "chance": 0.8,
-      "item": "minecraft:white_dye"
+      "item": "minecraft:light_gray_dye"
     },
     {
       "chance": 0.6,
-      "item": "minecraft:white_dye"
+      "item": "minecraft:light_gray_dye"
     },
     {
       "chance": 0.3,
-      "item": "minecraft:white_dye"
+      "item": "minecraft:light_gray_dye"
     },
     {
       "chance": 0.1,
