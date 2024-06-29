@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:wooded_badlands",
     {
       "id": "#c:is_hot",
       "required": false

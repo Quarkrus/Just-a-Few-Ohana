@@ -12,6 +12,10 @@
         "name": "#jafohana:is_dry"
       },
       {
+        "name": "minecraft:wooded_badlands",
+        "negate": true
+      },
+      {
         "name": "#jafohana:is_savanna",
         "negate": true
       },
