@@ -12,11 +12,11 @@
         "name": "#jafohana:is_dry"
       },
       {
-        "name": "minecraft:wooded_badlands",
+        "name": "#jafohana:is_badlands",
         "negate": true
       },
       {
-        "name": "minecraft:windswept_savanna",
+        "name": "#jafohana:is_savanna",
         "negate": true
       },
       {
