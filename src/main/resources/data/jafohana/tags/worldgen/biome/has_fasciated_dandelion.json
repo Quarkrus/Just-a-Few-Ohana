@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "worldofwonder:dandelion_fields",
+      "required": false
+    }
+  ]
+}
