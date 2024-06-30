@@ -14,14 +14,14 @@
     {
       "item": {
         "count": 4,
-        "item": "minecraft::yellow_dye"
+        "item": "minecraft:yellow_dye"
       }
     },
     {
       "chance": 0.5,
       "item": {
         "count": 2,
-        "item": "minecraft::yellow_dye"
+        "item": "minecraft:yellow_dye"
       }
     }
   ]
