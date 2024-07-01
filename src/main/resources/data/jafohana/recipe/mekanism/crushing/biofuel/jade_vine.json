@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mekanism"
+        },
+        {
+          "type": "neoforge:item_exists",
+          "item": "mekanism:bio_fuel"
+        }
+      ]
+    }
+  ],
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "item": "jafohana:jade_vine"
+  },
+  "output": {
+    "count": 4,
+    "id": "mekanism:bio_fuel"
+  }
+}

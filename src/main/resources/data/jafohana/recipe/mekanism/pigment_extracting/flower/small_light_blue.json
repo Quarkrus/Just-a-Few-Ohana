@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:pigment_extracting",
+  "input": {
+    "type": "neoforge:compound",
+    "children": [
+      {
+        "item": "jafohana:forget_me_not"
+      },
+      {
+        "item": "jafohana:blue_daisy"
+      }
+    ],
+    "count": 1
+  },
+  "output": {
+    "amount": 768,
+    "id": "mekanism:light_blue"
+  }
+}

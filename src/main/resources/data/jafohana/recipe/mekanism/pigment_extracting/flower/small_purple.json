@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:pigment_extracting",
+  "input": {
+    "type": "neoforge:compound",
+    "children": [
+      {
+        "item": "jafohana:blood_red_iris"
+      },
+      {
+        "item": "jafohana:purple_pansy"
+      }
+    ],
+    "count": 1
+  },
+  "output": {
+    "amount": 768,
+    "id": "mekanism:purple"
+  }
+}

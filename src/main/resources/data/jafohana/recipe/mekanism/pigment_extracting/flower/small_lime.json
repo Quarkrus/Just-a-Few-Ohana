@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:pigment_extracting",
+  "input": {
+    "type": "neoforge:compound",
+    "children": [
+      {
+        "item": "jafohana:green_tulip"
+      },
+      {
+        "item": "jafohana:bells_of_ireland"
+      }
+    ],
+    "count": 1
+  },
+  "output": {
+    "amount": 768,
+    "id": "mekanism:lime"
+  }
+}
