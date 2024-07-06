@@ -51,7 +51,7 @@ public class ModBlocks
 	public static final Supplier<Block> WINTER_HEATH = REGISTRY.register("winter_heath", () -> new ModFlowerBlock(MobEffects.WEAKNESS, 9));
 	public static final Supplier<Block> BLUE_DAISY = REGISTRY.register("blue_daisy", () -> new ModFlowerBlock(MobEffects.MOVEMENT_SPEED, 5));
 	public static final Supplier<Block> CRIMSON_CLOVER = REGISTRY.register("crimson_clover", () -> new CrimsonCloverBlock(MobEffects.FIRE_RESISTANCE, 4));
-	public static final Supplier<Block> WHEEL_LILY = REGISTRY.register("wheel_lily", () -> new ModFlowerBlock(MobEffects.SATURATION, 7));
+	public static final Supplier<Block> WHEEL_LILY = REGISTRY.register("wheel_lily", () -> new MediumFlowerBlock(MobEffects.SATURATION, 7));
 	public static final Supplier<Block> MAGENTA_SPOTTED_BELLFLOWER = REGISTRY.register("magenta_spotted_bellflower", () -> new ModFlowerBlock(MobEffects.NIGHT_VISION, 5));
 	public static final Supplier<Block> WHITE_SPOTTED_BELLFLOWER = REGISTRY.register("white_spotted_bellflower", () -> new ModFlowerBlock(MobEffects.NIGHT_VISION, 5));
 	public static final Supplier<Block> RED_SPIDER_LILY = REGISTRY.register("red_spider_lily", () -> new RedSpiderLilyBlock(MobEffects.POISON, 12));
