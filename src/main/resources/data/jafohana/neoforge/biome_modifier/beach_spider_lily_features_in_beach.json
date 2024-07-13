@@ -14,7 +14,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dead",
+        "name": "#jafohana:is_dead_or_wasteland",
         "negate": true
       },
       {
@@ -43,6 +43,10 @@
       },
       {
         "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dead_or_wasteland",
         "negate": true
       },
       {

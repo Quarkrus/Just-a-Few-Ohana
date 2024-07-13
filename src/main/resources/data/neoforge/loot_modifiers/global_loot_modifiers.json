@@ -13,6 +13,8 @@
     "jafohana:chests/village/village_savanna_house",
     "jafohana:chests/village/village_snowy_house",
     "jafohana:chests/village/village_taiga_house",
+    "jafohana:chests/underwater_ruin_big",
+    "jafohana:chests/underwater_ruin_small",
     "jafohana:chests/woodland_mansion"
   ],
   "replace": false
