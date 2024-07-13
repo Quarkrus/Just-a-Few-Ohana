@@ -1,0 +1,55 @@
+{
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "minecraft:sparse_jungle"
+      }
+    ],
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_dry",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hill_or_mountain",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_plains"
+      }
+    ],
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_dry",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hill_or_mountain",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_jungle"
+      },
+      {
+        "name": "#jafohana:is_sparse_vegetation"
+      }
+    ]
+  ],
+  "features": "jafohana:beach_spider_lily",
+  "step": "vegetal_decoration"
+}

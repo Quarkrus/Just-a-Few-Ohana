@@ -31,6 +31,7 @@
   "block.jafohana.white_spotted_bellflower": "White Spotted Bellflower",
   "block.jafohana.red_spider_lily": "Red Spider Lily",
   "block.jafohana.bells_of_ireland": "Bells of Ireland",
+  "block.jafohana.beach_spider_lily": "Beach Spider Lily",
   "block.jafohana.orange_marigold": "Orange Marigold",
   "block.jafohana.yellow_marigold": "Yellow Marigold",
   "block.jafohana.gloriosa": "Gloriosa",
@@ -77,5 +78,6 @@
   "block.jafohana.potted_white_spotted_bellflower": "Potted White Spotted Bellflower",
   "block.jafohana.potted_red_spider_lily": "Potted Red Spider Lily",
   "block.jafohana.potted_bells_of_ireland": "Potted Bells of Ireland",
+  "block.jafohana.potted_beach_spider_lily": "Potted Beach Spider Lily",
   "item_group.jafohana.tab": "Just a Few Ohana"
 }

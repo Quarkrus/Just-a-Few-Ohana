@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:frozen_river",
     {
       "id": "#c:is_cold",
       "required": false

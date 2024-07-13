@@ -48,6 +48,7 @@ public class ModItems
 	public static final Supplier<Item> WHITE_SPOTTED_BELLFLOWER = REGISTRY.register("white_spotted_bellflower", () -> new BlockItem(ModBlocks.WHITE_SPOTTED_BELLFLOWER.get(), new Item.Properties()));
 	public static final Supplier<Item> RED_SPIDER_LILY = REGISTRY.register("red_spider_lily", () -> new BlockItem(ModBlocks.RED_SPIDER_LILY.get(), new Item.Properties()));
 	public static final Supplier<Item> BELLS_OF_IRELAND = REGISTRY.register("bells_of_ireland", () -> new BlockItem(ModBlocks.BELLS_OF_IRELAND.get(), new Item.Properties()));
+	public static final Supplier<Item> BEACH_SPIDER_LILY = REGISTRY.register("beach_spider_lily", () -> new BlockItem(ModBlocks.BEACH_SPIDER_LILY.get(), new Item.Properties()));
 	public static final Supplier<Item> ORANGE_MARIGOLD = REGISTRY.register("orange_marigold", () -> new DoubleHighBlockItem(ModBlocks.ORANGE_MARIGOLD.get(), new Item.Properties()));
 	public static final Supplier<Item> YELLOW_MARIGOLD = REGISTRY.register("yellow_marigold", () -> new DoubleHighBlockItem(ModBlocks.YELLOW_MARIGOLD.get(), new Item.Properties()));
 	public static final Supplier<Item> GLORIOSA = REGISTRY.register("gloriosa", () -> new DoubleHighBlockItem(ModBlocks.GLORIOSA.get(), new Item.Properties()));
