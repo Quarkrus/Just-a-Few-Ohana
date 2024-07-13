@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:sparse_jungle",
     {
       "id": "#c:is_sparse_vegetation",
       "required": false

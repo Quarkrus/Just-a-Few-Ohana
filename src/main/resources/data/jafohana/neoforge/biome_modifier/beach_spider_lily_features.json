@@ -3,11 +3,6 @@
   "biomes": [
     [
       {
-        "name": "minecraft:sparse_jungle"
-      }
-    ],
-    [
-      {
         "name": "#jafohana:is_overworld"
       },
       {
