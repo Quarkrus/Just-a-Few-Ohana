@@ -8,6 +8,10 @@
     {
       "id": "#c:is_water",
       "required": false
+    },
+    {
+      "id": "mysticsbiomes:lagoon",
+      "required": false
     }
   ]
 }

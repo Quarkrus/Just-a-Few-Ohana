@@ -8,6 +8,10 @@
     {
       "id": "biox:molten_caves",
       "required": false
+    },
+    {
+      "id": "mysticsbiomes:tropics",
+      "required": false
     }
   ]
 }
