@@ -13,6 +13,7 @@ import com.github.mechalopa.jafohana.world.level.block.ModFlowerBlock;
 import com.github.mechalopa.jafohana.world.level.block.ModFlowerPotBlock;
 import com.github.mechalopa.jafohana.world.level.block.ModTallFlowerBlock;
 import com.github.mechalopa.jafohana.world.level.block.RedSpiderLilyBlock;
+import com.github.mechalopa.jafohana.world.level.block.WaterFloatingFlowerBlock;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffects;
@@ -73,6 +74,7 @@ public class ModBlocks
 	public static final Supplier<Block> YELLOWFLAG_IRIS = REGISTRY.register("yellowflag_iris", () -> new ModTallFlowerBlock());
 	public static final Supplier<Block> FASCIATED_DANDELION = REGISTRY.register("fasciated_dandelion", () -> new FasciatedDandelionBlock());
 	public static final Supplier<Block> FASCIATED_OXEYE_DAISY = REGISTRY.register("fasciated_oxeye_daisy", () -> new FasciatedOxeyeDaisyBlock());
+	public static final Supplier<Block> WATER_HYACINTH = REGISTRY.register("water_hyacinth", () -> new WaterFloatingFlowerBlock(MobEffects.WEAKNESS, 9));
 	public static final Supplier<Block> JADE_VINE = REGISTRY.register("jade_vine", () -> new JadeVineBlock());
 	public static final Supplier<Block> POTTED_DAYFLOWER = REGISTRY.register("potted_dayflower", () -> new ModFlowerPotBlock(DAYFLOWER.get()));
 	public static final Supplier<Block> POTTED_EVENING_PRIMROSE = REGISTRY.register("potted_evening_primrose", () -> new ModFlowerPotBlock(EVENING_PRIMROSE.get()));
@@ -107,6 +109,7 @@ public class ModBlocks
 	public static final Supplier<Block> POTTED_RED_SPIDER_LILY = REGISTRY.register("potted_red_spider_lily", () -> new ModFlowerPotBlock(RED_SPIDER_LILY.get()));
 	public static final Supplier<Block> POTTED_BELLS_OF_IRELAND = REGISTRY.register("potted_bells_of_ireland", () -> new ModFlowerPotBlock(BELLS_OF_IRELAND.get()));
 	public static final Supplier<Block> POTTED_BEACH_SPIDER_LILY = REGISTRY.register("potted_beach_spider_lily", () -> new ModFlowerPotBlock(BEACH_SPIDER_LILY.get()));
+	public static final Supplier<Block> POTTED_WATER_HYACINTH = REGISTRY.register("potted_water_hyacinth", () -> new ModFlowerPotBlock(WATER_HYACINTH.get()));
 
 	@SubscribeEvent
 	public static void register(IEventBus eventBus)

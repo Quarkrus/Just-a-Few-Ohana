@@ -47,6 +47,7 @@
   "block.jafohana.yellowflag_iris": "キショウブ",
   "block.jafohana.fasciated_dandelion": "帯化したタンポポ",
   "block.jafohana.fasciated_oxeye_daisy": "帯化したフランスギク",
+  "block.jafohana.water_hyacinth": "ホテイアオイ",
   "block.jafohana.jade_vine": "ヒスイカズラ",
   "block.jafohana.potted_dayflower": "植えられたツユクサ",
   "block.jafohana.potted_evening_primrose": "植えられた月見草",
@@ -81,5 +82,6 @@
   "block.jafohana.potted_red_spider_lily": "植えられた彼岸花",
   "block.jafohana.potted_bells_of_ireland": "植えられたカイガラサルビア",
   "block.jafohana.potted_beach_spider_lily": "植えられたビーチスパイダーリリー",
+  "block.jafohana.potted_water_hyacinth": "植えられたホテイアオイ",
   "item_group.jafohana.tab": "Just a Few Ohana"
 }

@@ -3,6 +3,27 @@
   "biomes": [
     [
       {
+        "name": "minecraft:flower_forest"
+      }
+    ],
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dead_or_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_swamp"
+      }
+    ],
+    [
+      {
         "name": "#jafohana:is_overworld"
       },
       {
@@ -10,7 +31,11 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_cold",
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hill_or_mountain",
         "negate": true
       },
       {
@@ -18,7 +43,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_beach"
+        "name": "#jafohana:is_plains"
       }
     ],
     [
@@ -26,7 +51,7 @@
         "name": "#jafohana:is_overworld"
       },
       {
-        "name": "#jafohana:is_cold",
+        "name": "#jafohana:is_snowy",
         "negate": true
       },
       {
@@ -34,7 +59,14 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_river"
+        "name": "#jafohana:is_forest"
+      },
+      {
+        "name": "#jafohana:is_aquatic"
+      },
+      {
+        "name": "#jafohana:is_ocean",
+        "negate": true
       }
     ],
     [
@@ -42,7 +74,7 @@
         "name": "#jafohana:is_overworld"
       },
       {
-        "name": "#jafohana:is_cold",
+        "name": "#jafohana:is_snowy",
         "negate": true
       },
       {
@@ -54,9 +86,13 @@
       },
       {
         "name": "#jafohana:is_aquatic"
+      },
+      {
+        "name": "#jafohana:is_ocean",
+        "negate": true
       }
     ]
   ],
-  "features": "jafohana:beach_spider_lily_beach",
+  "features": "jafohana:water_hyacinth",
   "step": "vegetal_decoration"
 }

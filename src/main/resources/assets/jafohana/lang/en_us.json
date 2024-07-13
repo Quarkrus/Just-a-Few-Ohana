@@ -47,6 +47,7 @@
   "block.jafohana.yellowflag_iris": "Yellowflag Iris",
   "block.jafohana.fasciated_dandelion": "Fasciated Dandelion",
   "block.jafohana.fasciated_oxeye_daisy": "Fasciated Oxeye Daisy",
+  "block.jafohana.water_hyacinth": "Water Hyacinth",
   "block.jafohana.jade_vine": "Jade Vine",
   "block.jafohana.potted_dayflower": "Potted Dayflower",
   "block.jafohana.potted_evening_primrose": "Potted Evening Primrose",
@@ -81,5 +82,6 @@
   "block.jafohana.potted_red_spider_lily": "Potted Red Spider Lily",
   "block.jafohana.potted_bells_of_ireland": "Potted Bells of Ireland",
   "block.jafohana.potted_beach_spider_lily": "Potted Beach Spider Lily",
+  "block.jafohana.potted_water_hyacinth": "Potted Water Hyacinth",
   "item_group.jafohana.tab": "Just a Few Ohana"
 }

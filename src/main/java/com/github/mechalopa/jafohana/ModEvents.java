@@ -158,6 +158,7 @@ public class ModEvents
 			genericTrades.add(new BasicItemListing(3, new ItemStack(ModItems.RED_SPIDER_LILY.get()), 12, 1, 0.05F));
 			genericTrades.add(new BasicItemListing(3, new ItemStack(ModItems.BELLS_OF_IRELAND.get()), 12, 1, 0.05F));
 			genericTrades.add(new BasicItemListing(3, new ItemStack(ModItems.BEACH_SPIDER_LILY.get()), 12, 1, 0.05F));
+			genericTrades.add(new BasicItemListing(3, new ItemStack(ModItems.WATER_HYACINTH.get()), 12, 1, 0.05F));
 			genericTrades.add(new BasicItemListing(3, new ItemStack(ModItems.JADE_VINE.get(), 2), 5, 1, 0.05F));
 		}
 	}
