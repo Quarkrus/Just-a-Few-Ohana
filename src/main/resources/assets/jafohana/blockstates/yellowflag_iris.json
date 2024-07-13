@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/yellowflag_iris_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/yellowflag_iris_top"
+    }
+  }
+}

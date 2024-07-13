@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/swamp_milkweed_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/swamp_milkweed_top"
+    }
+  }
+}

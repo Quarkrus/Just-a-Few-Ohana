@@ -1,9 +1,9 @@
 {
-  "feature": "jafohana:red_spider_lily_waterside",
+  "feature": "jafohana:tall_flower_river",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 24
+      "chance": 40
     },
     {
       "type": "minecraft:in_square"

@@ -11,6 +11,10 @@
         "name": "#jafohana:is_overworld"
       },
       {
+        "name": "minecraft:sunflower_plains",
+        "negate": true
+      },
+      {
         "name": "#jafohana:is_dry",
         "negate": true
       },
@@ -58,6 +62,6 @@
       }
     ]
   ],
-  "features": "jafohana:beach_spider_lily",
+  "features": "jafohana:beach_spider_lily_waterside",
   "step": "vegetal_decoration"
 }

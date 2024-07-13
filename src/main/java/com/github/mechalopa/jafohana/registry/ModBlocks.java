@@ -69,6 +69,8 @@ public class ModBlocks
 	public static final Supplier<Block> FIREWEED = REGISTRY.register("fireweed", () -> new ModTallFlowerBlock());
 	public static final Supplier<Block> ALPINE_RAGWORT = REGISTRY.register("alpine_ragwort", () -> new ModTallFlowerBlock());
 	public static final Supplier<Block> TATARIAN_ASTER = REGISTRY.register("tatarian_aster", () -> new ModTallFlowerBlock());
+	public static final Supplier<Block> SWAMP_MILKWEED = REGISTRY.register("swamp_milkweed", () -> new ModTallFlowerBlock());
+	public static final Supplier<Block> YELLOWFLAG_IRIS = REGISTRY.register("yellowflag_iris", () -> new ModTallFlowerBlock());
 	public static final Supplier<Block> FASCIATED_DANDELION = REGISTRY.register("fasciated_dandelion", () -> new FasciatedDandelionBlock());
 	public static final Supplier<Block> FASCIATED_OXEYE_DAISY = REGISTRY.register("fasciated_oxeye_daisy", () -> new FasciatedOxeyeDaisyBlock());
 	public static final Supplier<Block> JADE_VINE = REGISTRY.register("jade_vine", () -> new JadeVineBlock());

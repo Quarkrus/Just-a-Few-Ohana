@@ -10,18 +10,18 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_snowy",
+        "name": "#jafohana:is_cold",
         "negate": true
       },
       {
-        "name": "#jafohana:is_hill_or_mountain",
+        "name": "#jafohana:is_dead_or_wasteland",
         "negate": true
       },
       {
-        "name": "#jafohana:is_plains"
+        "name": "#jafohana:is_river"
       }
     ]
   ],
-  "features": "jafohana:red_spider_lily_waterside",
+  "features": "jafohana:tall_flower_river",
   "step": "vegetal_decoration"
 }
