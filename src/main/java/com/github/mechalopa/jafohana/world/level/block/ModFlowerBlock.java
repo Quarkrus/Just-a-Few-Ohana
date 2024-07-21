@@ -14,14 +14,14 @@ import net.minecraft.world.level.material.PushReaction;
 
 public class ModFlowerBlock extends FlowerBlock
 {
-	public ModFlowerBlock(Holder<MobEffect> effect, int effectDuration, BlockBehaviour.Properties properties)
-	{
-		super(effect, effectDuration, properties);
-	}
-
 	public ModFlowerBlock(Holder<MobEffect> effect, int effectDuration)
 	{
 		this(effect, effectDuration, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+	}
+
+	public ModFlowerBlock(Holder<MobEffect> effect, int effectDuration, BlockBehaviour.Properties properties)
+	{
+		super(effect, effectDuration, properties);
 	}
 
 	public boolean isReallyFlammable(BlockState state, BlockGetter getter, BlockPos pos, Direction direction)
