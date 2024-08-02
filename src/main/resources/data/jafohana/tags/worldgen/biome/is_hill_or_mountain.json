@@ -10,6 +10,14 @@
       "required": false
     },
     {
+      "id": "#c:hill",
+      "required": false
+    },
+    {
+      "id": "#c:mountain",
+      "required": false
+    },
+    {
       "id": "#terralith:cliffs",
       "required": false
     }

@@ -14,6 +14,18 @@
       "required": false
     },
     {
+      "id": "#c:plains",
+      "required": false
+    },
+    {
+      "id": "#c:plain",
+      "required": false
+    },
+    {
+      "id": "#c:grassland",
+      "required": false
+    },
+    {
       "id": "terralith:blooming_plateau",
       "required": false
     },

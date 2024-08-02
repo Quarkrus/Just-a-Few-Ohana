@@ -6,6 +6,10 @@
       "required": false
     },
     {
+      "id": "#c:cold",
+      "required": false
+    },
+    {
       "id": "biox:glacial_caves",
       "required": false
     },
