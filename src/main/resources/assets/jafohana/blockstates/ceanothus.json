@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "jafohana:block/ceanothus_bottom"
+    },
+    "half=upper": {
+      "model": "jafohana:block/ceanothus_top"
+    }
+  }
+}
