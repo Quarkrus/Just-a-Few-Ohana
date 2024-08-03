@@ -13,6 +13,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.neoforge.client.gui.ConfigurationScreen;
+import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
 @Mod(JAFOhana.MODID)
 public class JAFOhana
@@ -25,6 +27,7 @@ public class JAFOhana
 	{
 		modEventBus.addListener(ModConfigs::loadConfig);
 		modContainer.registerConfig(ModConfig.Type.COMMON, ModConfigs.SERVER_CONFIG);
+		modContainer.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
 
 		ModBlocks.register(modEventBus);
 		ModBiomeFeatures.register(modEventBus);

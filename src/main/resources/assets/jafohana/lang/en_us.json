@@ -84,5 +84,13 @@
   "block.jafohana.potted_bells_of_ireland": "Potted Bells of Ireland",
   "block.jafohana.potted_beach_spider_lily": "Potted Beach Spider Lily",
   "block.jafohana.potted_water_hyacinth": "Potted Water Hyacinth",
-  "item_group.jafohana.tab": "Just a Few Ohana"
+  "item_group.jafohana.tab": "Just a Few Ohana",
+  "jafohana.configuration.general": "General",
+  "jafohana.configuration.fasciatedDandelionDropsNormalDandelionWhenUsingBoneMeal": "Fasciated dandelion drops normal dandelion when using bone meal",
+  "jafohana.configuration.fasciatedOxeyeDaisyDropsNormalOxeyeDaisyWhenUsingBoneMeal": "Fasciated oxeye daisy drops normal oxeye daisy when using bone meal",
+  "jafohana.configuration.dandelionFasciationChance": "Dandelion fasciation chance",
+  "jafohana.configuration.oxeyeDaisyFasciationChance": "Oxeye daisy fasciation chance",
+  "jafohana.configuration.creepansyConvertChance": "Creepansy convert chance",
+  "jafohana.configuration.jadeVineGrowChance": "Jade vine grow chance",
+  "jafohana.configuration.additionalWandererTrades": "Additional wanderer trades"
 }
