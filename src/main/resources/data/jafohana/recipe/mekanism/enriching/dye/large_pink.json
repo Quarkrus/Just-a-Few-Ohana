@@ -7,16 +7,8 @@
   ],
   "type": "mekanism:enriching",
   "input": {
-    "type": "neoforge:compound",
-    "children": [
-      {
-        "item": "jafohana:brazilian_plume"
-      },
-      {
-        "item": "jafohana:swamp_milkweed"
-      }
-    ],
-    "count": 1
+    "count": 1,
+    "item": "jafohana:brazilian_plume"
   },
   "output": {
     "count": 4,

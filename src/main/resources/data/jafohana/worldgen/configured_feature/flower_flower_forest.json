@@ -112,39 +112,6 @@
                   "to_place": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                      "Name": "jafohana:bluebell"
-                    }
-                  }
-                }
-              },
-              "placement": [
-                {
-                  "type": "minecraft:block_predicate_filter",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": "minecraft:air"
-                  }
-                }
-              ]
-            },
-            "tries": 96,
-            "xz_spread": 7,
-            "y_spread": 3
-          }
-        },
-        "placement": []
-      },
-      {
-        "feature": {
-          "type": "minecraft:random_patch",
-          "config": {
-            "feature": {
-              "feature": {
-                "type": "minecraft:simple_block",
-                "config": {
-                  "to_place": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
                       "Name": "jafohana:red_snapdragon"
                     }
                   }
@@ -344,72 +311,6 @@
                     "type": "minecraft:simple_state_provider",
                     "state": {
                       "Name": "jafohana:blue_daisy"
-                    }
-                  }
-                }
-              },
-              "placement": [
-                {
-                  "type": "minecraft:block_predicate_filter",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": "minecraft:air"
-                  }
-                }
-              ]
-            },
-            "tries": 96,
-            "xz_spread": 7,
-            "y_spread": 3
-          }
-        },
-        "placement": []
-      },
-      {
-        "feature": {
-          "type": "minecraft:random_patch",
-          "config": {
-            "feature": {
-              "feature": {
-                "type": "minecraft:simple_block",
-                "config": {
-                  "to_place": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "jafohana:magenta_spotted_bellflower"
-                    }
-                  }
-                }
-              },
-              "placement": [
-                {
-                  "type": "minecraft:block_predicate_filter",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": "minecraft:air"
-                  }
-                }
-              ]
-            },
-            "tries": 96,
-            "xz_spread": 7,
-            "y_spread": 3
-          }
-        },
-        "placement": []
-      },
-      {
-        "feature": {
-          "type": "minecraft:random_patch",
-          "config": {
-            "feature": {
-              "feature": {
-                "type": "minecraft:simple_block",
-                "config": {
-                  "to_place": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                      "Name": "jafohana:white_spotted_bellflower"
                     }
                   }
                 }
