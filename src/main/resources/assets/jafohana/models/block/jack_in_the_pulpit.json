@@ -1,0 +1,8 @@
+{
+  "parent": "jafohana:block/medium_flower_height_18",
+  "textures": {
+    "particle": "jafohana:block/jack_in_the_pulpit",
+    "cross": "jafohana:block/jack_in_the_pulpit",
+    "stem": "jafohana:block/jack_in_the_pulpit_stem"
+  }
+}

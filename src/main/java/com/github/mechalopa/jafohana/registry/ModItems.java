@@ -44,6 +44,7 @@ public class ModItems
 	public static final Supplier<Item> BLUE_DAISY = REGISTRY.register("blue_daisy", () -> new BlockItem(ModBlocks.BLUE_DAISY.get(), new Item.Properties()));
 	public static final Supplier<Item> CRIMSON_CLOVER = REGISTRY.register("crimson_clover", () -> new BlockItem(ModBlocks.CRIMSON_CLOVER.get(), new Item.Properties()));
 	public static final Supplier<Item> WHEEL_LILY = REGISTRY.register("wheel_lily", () -> new BlockItem(ModBlocks.WHEEL_LILY.get(), new Item.Properties()));
+	public static final Supplier<Item> JACK_IN_THE_PULPIT = REGISTRY.register("jack_in_the_pulpit", () -> new BlockItem(ModBlocks.JACK_IN_THE_PULPIT.get(), new Item.Properties()));
 	public static final Supplier<Item> RED_SPIDER_LILY = REGISTRY.register("red_spider_lily", () -> new BlockItem(ModBlocks.RED_SPIDER_LILY.get(), new Item.Properties()));
 	public static final Supplier<Item> BELLS_OF_IRELAND = REGISTRY.register("bells_of_ireland", () -> new BlockItem(ModBlocks.BELLS_OF_IRELAND.get(), new Item.Properties()));
 	public static final Supplier<Item> BEACH_SPIDER_LILY = REGISTRY.register("beach_spider_lily", () -> new BlockItem(ModBlocks.BEACH_SPIDER_LILY.get(), new Item.Properties()));
