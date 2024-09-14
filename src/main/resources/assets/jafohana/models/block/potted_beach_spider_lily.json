@@ -2,6 +2,6 @@
   "parent": "minecraft:block/flower_pot_cross",
   "render_type": "cutout",
   "textures": {
-    "plant": "jafohana:block/beach_spider_lily"
+    "plant": "jafohana:block/potted_beach_spider_lily"
   }
 }
