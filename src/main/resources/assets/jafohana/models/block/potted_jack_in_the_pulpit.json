@@ -2,6 +2,6 @@
   "parent": "minecraft:block/flower_pot_cross",
   "render_type": "cutout",
   "textures": {
-    "plant": "jafohana:block/jack_in_the_pulpit"
+    "plant": "jafohana:block/potted_jack_in_the_pulpit"
   }
 }
