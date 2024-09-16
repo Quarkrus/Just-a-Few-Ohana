@@ -95,23 +95,8 @@
           "name": "jafohana:beach_spider_lily"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "jafohana:water_hyacinth"
-        },
-        {
           "type": "minecraft:empty",
-          "weight": 9
+          "weight": 10
         }
       ],
       "rolls": {

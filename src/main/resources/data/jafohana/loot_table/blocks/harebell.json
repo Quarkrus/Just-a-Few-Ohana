@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "jafohana:water_hyacinth"
+          "name": "jafohana:harebell"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "jafohana:blocks/water_hyacinth"
+  "random_sequence": "jafohana:blocks/harebell"
 }
