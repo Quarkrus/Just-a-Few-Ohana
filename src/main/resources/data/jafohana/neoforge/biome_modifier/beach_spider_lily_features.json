@@ -18,6 +18,10 @@
         "negate": true
       },
       {
+        "name": "#jafohana:is_aquatic",
+        "negate": true
+      },
+      {
         "name": "#jafohana:is_jungle"
       },
       {
