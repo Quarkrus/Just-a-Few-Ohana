@@ -1,6 +1,22 @@
 {
-  "type": "forge:add_features",
-  "biomes": "minecraft:sparse_jungle",
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_sparse"
+      },
+      {
+        "name": "#jafohana:is_bamboo_jungle",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_jungle"
+      }
+    ]
+  ],
   "features": "jafohana:flower_sparse_jungle",
   "step": "vegetal_decoration"
 }
