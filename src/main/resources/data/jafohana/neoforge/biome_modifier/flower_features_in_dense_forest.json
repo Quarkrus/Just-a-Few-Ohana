@@ -26,8 +26,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dense_vegetation",
-        "negate": true
+        "name": "#jafohana:is_dense_vegetation"
       },
       {
         "name": "#jafohana:is_spooky",
@@ -42,6 +41,6 @@
       }
     ]
   ],
-  "features": "jafohana:flower_forest",
+  "features": "jafohana:flower_dense_forest",
   "step": "vegetal_decoration"
 }
