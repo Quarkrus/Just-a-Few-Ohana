@@ -91,10 +91,6 @@
       "required": false
     },
     {
-      "id": "specialmobs:scopecreeper",
-      "required": false
-    },
-    {
       "id": "specialmobs:skeletoncreeper",
       "required": false
     },

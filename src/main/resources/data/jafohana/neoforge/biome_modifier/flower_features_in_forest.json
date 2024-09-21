@@ -26,15 +26,11 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dense_vegetation",
-        "negate": true
-      },
-      {
         "name": "#jafohana:is_spooky",
         "negate": true
       },
       {
-        "name": "#jafohana:is_dead_or_wasteland",
+        "name": "#jafohana:is_wasteland",
         "negate": true
       },
       {

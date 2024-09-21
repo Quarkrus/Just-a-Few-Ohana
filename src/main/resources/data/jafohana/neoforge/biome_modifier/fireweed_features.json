@@ -22,7 +22,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dead_or_wasteland",
+        "name": "#jafohana:is_wasteland",
         "negate": true
       },
       {
@@ -57,7 +57,7 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dead_or_wasteland",
+        "name": "#jafohana:is_wasteland",
         "negate": true
       },
       {

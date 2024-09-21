@@ -4,14 +4,6 @@
     {
       "id": "#c:is_sparse_vegetation",
       "required": false
-    },
-    {
-      "id": "#c:sparse_vegetation",
-      "required": false
-    },
-    {
-      "id": "#c:vegetation_sparse",
-      "required": false
     }
   ]
 }

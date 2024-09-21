@@ -62,21 +62,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:harebell"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "jafohana:wheel_lily"
         },
         {
@@ -92,11 +77,26 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:fireweed"
+          "name": "jafohana:magenta_spotted_bellflower"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "jafohana:white_spotted_bellflower"
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 6
         }
       ],
       "rolls": {

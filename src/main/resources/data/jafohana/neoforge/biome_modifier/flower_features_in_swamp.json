@@ -26,10 +26,6 @@
         "negate": true
       },
       {
-        "name": "#jafohana:is_dead_or_wasteland",
-        "negate": true
-      },
-      {
         "name": "#jafohana:is_swamp"
       },
       {

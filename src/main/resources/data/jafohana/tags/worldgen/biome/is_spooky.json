@@ -6,10 +6,6 @@
       "required": false
     },
     {
-      "id": "#c:spooky",
-      "required": false
-    },
-    {
       "id": "spookybats:spooky_oak_forest",
       "required": false
     },

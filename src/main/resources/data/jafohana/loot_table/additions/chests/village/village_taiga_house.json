@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:purple_pansy"
+          "name": "jafohana:evening_primrose"
         },
         {
           "type": "minecraft:item",
@@ -32,7 +32,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:white_pansy"
+          "name": "jafohana:forget_me_not"
         },
         {
           "type": "minecraft:item",
@@ -47,7 +47,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:yellow_pansy"
+          "name": "jafohana:bluebell"
         },
         {
           "type": "minecraft:item",
@@ -62,44 +62,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:evening_primrose",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "jafohana:forget_me_not",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "jafohana:winter_heath",
-          "weight": 3
+          "name": "jafohana:winter_heath"
         },
         {
           "type": "minecraft:empty",
-          "weight": 12
+          "weight": 4
         }
       ],
       "rolls": {

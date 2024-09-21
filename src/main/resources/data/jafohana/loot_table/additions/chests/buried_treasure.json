@@ -41,13 +41,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "jafohana:jack_in_the_pulpit"
+          "name": "jafohana:oakleaf_hydrangea"
         },
         {
           "type": "minecraft:item",
@@ -80,23 +80,8 @@
           "name": "jafohana:green_tulip"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "jafohana:beach_spider_lily"
-        },
-        {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 11
         }
       ],
       "rolls": {

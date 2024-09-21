@@ -6,14 +6,6 @@
       "required": false
     },
     {
-      "id": "#c:dense_vegetation",
-      "required": false
-    },
-    {
-      "id": "#c:vegetation_dense",
-      "required": false
-    },
-    {
       "id": "biox:autumnal_dark_forest",
       "required": false
     },

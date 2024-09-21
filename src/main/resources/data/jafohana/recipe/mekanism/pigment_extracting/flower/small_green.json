@@ -7,16 +7,8 @@
   ],
   "type": "mekanism:pigment_extracting",
   "input": {
-    "type": "neoforge:compound",
-    "children": [
-      {
-        "item": "jafohana:creepansy"
-      },
-      {
-        "item": "jafohana:jack_in_the_pulpit"
-      }
-    ],
-    "count": 1
+    "count": 1,
+    "item": "jafohana:creepansy"
   },
   "output": {
     "amount": 768,

@@ -4,10 +4,6 @@
     {
       "id": "#c:is_dry",
       "required": false
-    },
-    {
-      "id": "#c:dry",
-      "required": false
     }
   ]
 }

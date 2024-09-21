@@ -4,10 +4,6 @@
     {
       "id": "#c:is_windswept",
       "required": false
-    },
-    {
-      "id": "#c:windswept",
-      "required": false
     }
   ]
 }

@@ -2,16 +2,8 @@
   "feature": "jafohana:worsleya",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 3,
-        "min_inclusive": 1
-      }
-    },
-    {
       "type": "minecraft:rarity_filter",
-      "chance": 150
+      "chance": 80
     },
     {
       "type": "minecraft:in_square"

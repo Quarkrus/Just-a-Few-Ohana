@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "jafohana:block/yellowflag_iris_top"
-  }
-}
