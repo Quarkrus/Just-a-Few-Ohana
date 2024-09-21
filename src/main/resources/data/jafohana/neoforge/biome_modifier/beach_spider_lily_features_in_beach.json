@@ -1,0 +1,27 @@
+{
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_dry",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_cold",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dead_or_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_beach"
+      }
+    ]
+  ],
+  "features": "jafohana:beach_spider_lily_beach",
+  "step": "vegetal_decoration"
+}

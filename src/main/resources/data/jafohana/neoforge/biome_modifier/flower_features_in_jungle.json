@@ -6,10 +6,15 @@
         "name": "#jafohana:is_overworld"
       },
       {
-        "name": [
-          "minecraft:sparse_jungle",
-          "minecraft:bamboo_jungle"
-        ],
+        "name": "#jafohana:is_sparse_vegetation",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_bamboo_jungle",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dead_or_wasteland",
         "negate": true
       },
       {

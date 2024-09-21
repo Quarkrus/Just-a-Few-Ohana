@@ -6,11 +6,7 @@
       "required": false
     },
     {
-      "id": "byg:borealis_grove",
-      "required": false
-    },
-    {
-      "id": "byg:temperate_grove",
+      "id": "#c:birch_forest",
       "required": false
     },
     {

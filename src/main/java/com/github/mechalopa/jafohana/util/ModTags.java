@@ -13,6 +13,7 @@ public class ModTags
 	public static final class BlockTags
 	{
 		public static final TagKey<Block> AFFECTS_FASCIATIONS = createBlockTag("affects_fasciations");
+		public static final TagKey<Block> BEACH_SPIDER_LILY_PLANTABLE_ON = createBlockTag("beach_spider_lily_plantable_on");
 		public static final TagKey<Block> CONVERTABLE_TO_CREEPANSY = createBlockTag("convertable_to_creepansy");
 		public static final TagKey<Block> CONVERTABLE_TO_FASCIATED_DANDELION = createBlockTag("convertable_to_fasciated_dandelion");
 		public static final TagKey<Block> CONVERTABLE_TO_FASCIATED_OXEYE_DAISY = createBlockTag("convertable_to_fasciated_oxeye_daisy");

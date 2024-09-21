@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:is_dead",
+      "required": false
+    },
+    {
+      "id": "#c:is_wasteland",
+      "required": false
+    },
+    {
+      "id": "#c:dead",
+      "required": false
+    },
+    {
+      "id": "#c:wasteland",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "ars_nouveau:crush",
+  "input": {
+    "type": "neoforge:compound",
+    "children": [
+      {
+        "item": "jafohana:yellow_marigold"
+      },
+      {
+        "item": "jafohana:fasciated_dandelion"
+      },
+      {
+        "item": "jafohana:alpine_ragwort"
+      },
+      {
+        "item": "jafohana:yellowflag_iris"
+      }
+    ]
+  },
+  "output": [
+    {
+      "chance": 1.0,
+      "maxRange": 1,
+      "stack": {
+        "count": 4,
+        "id": "minecraft:yellow_dye"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_snowy",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_hill_or_mountain",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_dead_or_wasteland",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_aquatic",
+        "negate": true
+      },
+      {
+        "name": "#jafohana:is_jungle"
+      },
+      {
+        "name": "#jafohana:is_sparse_vegetation"
+      }
+    ]
+  ],
+  "features": "jafohana:beach_spider_lily_waterside",
+  "step": "vegetal_decoration"
+}
