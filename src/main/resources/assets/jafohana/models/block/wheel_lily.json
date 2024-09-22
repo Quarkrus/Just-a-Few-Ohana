@@ -1,7 +1,8 @@
 {
-  "parent": "minecraft:block/cross",
-  "render_type": "cutout",
+  "parent": "jafohana:block/medium_flower_height_18",
   "textures": {
-    "cross": "jafohana:block/wheel_lily"
+    "particle": "jafohana:block/wheel_lily",
+    "cross": "jafohana:block/wheel_lily",
+    "stem": "jafohana:block/wheel_lily_stem"
   }
 }
