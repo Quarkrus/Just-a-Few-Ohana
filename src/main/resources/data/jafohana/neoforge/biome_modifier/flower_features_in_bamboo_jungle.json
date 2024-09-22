@@ -1,6 +1,18 @@
 {
-  "type": "neoforge:add_features",
-  "biomes": "minecraft:bamboo_jungle",
+  "type": "jafohana:add_features",
+  "biomes": [
+    [
+      {
+        "name": "#jafohana:is_overworld"
+      },
+      {
+        "name": "#jafohana:is_bamboo_jungle"
+      },
+      {
+        "name": "#jafohana:is_jungle"
+      }
+    ]
+  ],
   "features": "jafohana:flower_bamboo_jungle",
   "step": "vegetal_decoration"
 }
